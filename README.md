@@ -8,7 +8,6 @@
     <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
     <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
     <img src="https://img.shields.io/badge/AI-100%25_Offline-green?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
   </p>
 
   <p>
