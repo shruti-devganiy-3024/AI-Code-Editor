@@ -1,0 +1,6 @@
+# AI Code Editor v2.0
+# Python 3.8+ required
+# No external dependencies - uses standard library only
+
+# Optional (for building EXE):
+# pip install pyinstaller
