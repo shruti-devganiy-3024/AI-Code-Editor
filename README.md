@@ -121,93 +121,17 @@
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
-|
- Language 
-|
- Extensions 
-|
- Run/Compile 
-|
-|
-----------
-|
------------
-|
--------------
-|
-|
- C 
-|
-`.c`
-|
-`gcc`
- → compile & run 
-|
-|
- C++ 
-|
-`.cpp`
-`.hpp`
-|
-`g++`
-/
-`clang++`
- → compile & run 
-|
-|
- Python 
-|
-`.py`
-|
-`python`
- → run directly 
-|
-|
- Java 
-|
-`.java`
-|
-`javac`
- + 
-`java`
-|
-|
- JavaScript 
-|
-`.js`
-|
-`node`
- → run directly 
-|
-|
- PHP 
-|
-`.php`
-|
-`php`
- → run directly 
-|
-|
- HTML 
-|
-`.html`
-|
- Opens in browser 
-|
-|
- CSS 
-|
-`.css`
-|
- Used with HTML 
-|
-|
- SQL 
-|
-`.sql`
-|
- Syntax highlighting 
-|
+| Language | Extensions | Run/Compile |
+|:---------|:-----------|:------------|
+| C | `.c` | gcc → compile & run |
+| C++ | `.cpp` `.hpp` | g++ / clang++ → compile & run |
+| Python | `.py` | python → run directly |
+| Java | `.java` | javac + java |
+| JavaScript | `.js` | node → run directly |
+| PHP | `.php` | php → run directly |
+| HTML | `.html` | Opens in browser |
+| CSS | `.css` | Used with HTML |
+| SQL | `.sql` | Syntax highlighting |
 
 ---
 
@@ -217,32 +141,14 @@
 
 ### 📦 Requirements
 
-|
- Required 
-|
- Optional 
-|
-|
-----------
-|
-----------
-|
-|
- ✅ Python 3.8+ 
-[
-Download
-](
-https://www.python.org/downloads/
-)
-|
- ✅ GCC/Clang (for C/C++ compiling) 
-|
-❌ NO internet connection needed
-❌ NO Ollama or external AI tools
-❌ NO API keys or accounts
-❌ NO paid subscriptions
+| Required | Optional |
+|:---------|:---------|
+| ✅ Python 3.8+ [Download](https://www.python.org/downloads/) | ✅ GCC/Clang for C/C++ compiling |
 
-text
+- ❌ NO internet connection needed
+- ❌ NO Ollama or external AI tools
+- ❌ NO API keys or accounts
+- ❌ NO paid subscriptions
 
 ### Step 1: Install Python
 
@@ -258,118 +164,236 @@ Download from **[python.org](https://www.python.org/downloads/)**
 
 ```bash
 python AI_Code_Editor_Offline.py
+```
+
 That's it! 🎉 The editor will open and you can start coding.
 
-🔨 Build Standalone EXE (Optional)
-Want a .exe that runs without Python installed?
+---
 
-bash
-# Step 1: Double-click BUILD_EXE.bat
-# OR manually run:
+## 🔨 Build Standalone EXE (Optional)
+
+Want a `.exe` that runs **without Python installed?**
+
+**Step 1:** Double-click `BUILD_EXE.bat`
+
+**OR manually run:**
+
+```bash
 pip install pyinstaller
 pyinstaller --onefile AI_Code_Editor_Offline.py
-Find your EXE at: dist/AICodeEditor.exe
+```
 
-💡 Share it with friends — no Python needed to run it!
+Find your EXE at: **dist/AICodeEditor.exe**
 
-🤖 AI Assistant — What Can You Ask?
-💬 General
-text
-"hi" or "hello"
-"what can you do"
-"tell me a joke"
-📝 Request Code
-text
-"write hello world in C"
-"create a calculator in python"
-"make a linked list in C"
-"write binary search"
-"write a login system in python"
-📖 Learn Concepts
-text
-"explain pointers"
-"what is OOP"
-"what is recursion"
-"explain big O notation"
-"difference between C and C++"
-🔧 Fix Errors
-text
-"fix segfault"
-"what is a null pointer"
-"explain syntax error"
-"fix memory leak"
-"what does TypeError mean"
-💻 Code Analysis
-text
-"check my code"
-"analyze my code"
-"what's wrong with my code"
-"review this"
-🔄 Other
-text
-"how to compile"
-"how to learn C"
-"best practices"
-"naming conventions"
-💡 Tips: Be specific! The AI remembers conversation context. Chat history is saved automatically. Click "+ New Chat" to start fresh.
+> 💡 Share it with friends — no Python needed to run it!
 
-⌨️ Keyboard Shortcuts
-Shortcut	Action
-Ctrl + N	New file
-Ctrl + O	Open file
-Ctrl + S	Save file
-Ctrl + B	Compile
-Ctrl + R	Run
-F5	Build & Run
-Ctrl + Z	Undo
-Ctrl + Y	Redo
-Ctrl + A	Select All
-Ctrl + C / V / X	Copy / Paste / Cut
-Ctrl + Enter	Send message to AI
-📁 Project Structure
-text
-AI_CODE_EDITOR_PROJECT/
-│
-├── 📄 AI_Code_Editor_Offline.py    ← Main application
-├── 📄 RUN_EDITOR.bat                ← Quick launcher
-├── 📄 BUILD_EXE.bat                 ← EXE builder
-├── 📄 README.md                     ← This file
-├── 📄 requirements.txt              ← Dependencies
-├── 📄 .gitignore                    ← Git ignore rules
-│
-├── 📁 assets/                       ← Screenshots & images
-├── 📁 chats/                        ← Saved chat sessions
-├── 📁 code/                         ← Your code files
-├── 📁 headers/                      ← Header files
-├── 📁 data/                         ← AI learned knowledge
-├── 📁 build/                        ← PyInstaller temp
-└── 📁 dist/                         ← Standalone EXE
-🔧 Troubleshooting
-❓ "python is not recognized"
-❓ Editor won't open
-❓ Compile button doesn't work
-❓ "Compiler not found"
-❓ AI gives generic responses
-❓ Chat history not saving
-❓ BUILD_EXE.bat fails
-❓ EXE flagged by antivirus
-🛠️ About This Project
+---
+
+## 🤖 AI Assistant — What Can You Ask?
+
+### 💬 General
+
+- "hi" or "hello"
+- "what can you do"
+- "tell me a joke"
+
+### 📝 Request Code
+
+- "write hello world in C"
+- "create a calculator in python"
+- "make a linked list in C"
+- "write binary search"
+- "write a login system in python"
+
+### 📖 Learn Concepts
+
+- "explain pointers"
+- "what is OOP"
+- "what is recursion"
+- "explain big O notation"
+- "difference between C and C++"
+
+### 🔧 Fix Errors
+
+- "fix segfault"
+- "what is a null pointer"
+- "explain syntax error"
+- "fix memory leak"
+- "what does TypeError mean"
+
+### 💻 Code Analysis
+
+- "check my code"
+- "analyze my code"
+- "what's wrong with my code"
+- "review this"
+
+### 🔄 Other
+
+- "how to compile"
+- "how to learn C"
+- "best practices"
+- "naming conventions"
+
+> 💡 **Tips:** Be specific! The AI remembers conversation context. Chat history is saved automatically. Click "+ New Chat" to start fresh.
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|:---------|:-------|
+| Ctrl + N | New file |
+| Ctrl + O | Open file |
+| Ctrl + S | Save file |
+| Ctrl + B | Compile |
+| Ctrl + R | Run |
+| F5 | Build & Run |
+| Ctrl + Z | Undo |
+| Ctrl + Y | Redo |
+| Ctrl + A | Select All |
+| Ctrl + C / V / X | Copy / Paste / Cut |
+| Ctrl + Enter | Send message to AI |
+
+---
+
+## 📁 Project Structure
+
+    AI_CODE_EDITOR_PROJECT/
+    │
+    ├── 📄 AI_Code_Editor_Offline.py    ← Main application
+    ├── 📄 RUN_EDITOR.bat                ← Quick launcher
+    ├── 📄 BUILD_EXE.bat                 ← EXE builder
+    ├── 📄 README.md                     ← This file
+    ├── 📄 requirements.txt              ← Dependencies
+    ├── 📄 .gitignore                    ← Git ignore rules
+    │
+    ├── 📁 assets/                       ← Screenshots & images
+    ├── 📁 chats/                        ← Saved chat sessions
+    ├── 📁 code/                         ← Your code files
+    ├── 📁 headers/                      ← Header files
+    ├── 📁 data/                         ← AI learned knowledge
+    ├── 📁 build/                        ← PyInstaller temp
+    └── 📁 dist/                         ← Standalone EXE
+
+---
+
+## 🔧 Troubleshooting
+
+<details>
+<summary>❓ <strong>"python is not recognized"</strong></summary>
+
+<br/>
+
+Python is not in your PATH. Reinstall Python and make sure to ✅ CHECK **"Add Python to PATH"** during installation.
+
+Or use the full path: `C:\Python39\python.exe AI_Code_Editor_Offline.py`
+
+</details>
+
+<details>
+<summary>❓ <strong>Editor won't open</strong></summary>
+
+<br/>
+
+Open Command Prompt, navigate to the folder, and run:
+
+`python AI_Code_Editor_Offline.py`
+
+Check the terminal for error messages.
+
+</details>
+
+<details>
+<summary>❓ <strong>Compile button doesn't work</strong></summary>
+
+<br/>
+
+You need a C/C++ compiler installed:
+- Install [MinGW-w64](https://www.mingw-w64.org/) or [MSYS2](https://www.msys2.org/)
+- Make sure gcc/g++ is in your system PATH
+
+</details>
+
+<details>
+<summary>❓ <strong>"Compiler not found"</strong></summary>
+
+<br/>
+
+The editor looks for clang++ by default. Either:
+- Install clang, OR
+- Install g++ (MinGW) — the editor will auto-detect it
+
+</details>
+
+<details>
+<summary>❓ <strong>AI gives generic responses</strong></summary>
+
+<br/>
+
+- Make sure you're using the latest version of AI_Code_Editor_Offline.py
+- Try deleting data/knowledge.json to reset AI memory
+- Check for duplicate method definitions
+
+</details>
+
+<details>
+<summary>❓ <strong>Chat history not saving</strong></summary>
+
+<br/>
+
+Make sure the chats/ folder exists in the same directory as the main script.
+
+</details>
+
+<details>
+<summary>❓ <strong>BUILD_EXE.bat fails</strong></summary>
+
+<br/>
+
+Run `pip install pyinstaller` first, then try BUILD_EXE.bat again.
+
+Or manually run: `pyinstaller --onefile AI_Code_Editor_Offline.py`
+
+</details>
+
+<details>
+<summary>❓ <strong>EXE flagged by antivirus</strong></summary>
+
+<br/>
+
+This is a **false positive** (very common with PyInstaller EXEs). Add an exception in your antivirus. The source code is fully open — verify it yourself!
+
+</details>
+
+---
+
+## 🛠️ About This Project
+
 This is an offline AI-powered code editor developed as a freelance project.
 
-My contributions:
+**My contributions:**
+- 🔧 Removed external AI dependencies (Ollama)
+- 🤖 Built offline AI assistant with knowledge base
+- 💬 Added chat history & session management
+- 🌐 Multi-language editor support (C, C++, Python, Java, JS, PHP, HTML, SQL)
+- 🎨 Complete UI redesign with dark theme
+- 💡 Code analysis & suggestions system
 
-🔧 Removed external AI dependencies (Ollama)
-🤖 Built offline AI assistant with knowledge base
-💬 Added chat history & session management
-🌐 Multi-language editor support (C, C++, Python, Java, JS, PHP, HTML, SQL)
-🎨 Complete UI redesign with dark theme
-💡 Code analysis & suggestions system
-Built with ❤️ and Python
+---
 
-⭐ Star this repo if you found it useful!
+<div align="center">
 
+  <strong>Built with ❤️ and Python</strong>
 
+  <p>⭐ Star this repo if you found it useful!</p>
 
-All your data stays on YOUR computer. Nothing is sent anywhere. Complete privacy. 🔒
+  <p>
+    <img src="https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/GUI-Tkinter-orange?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/AI-Offline-green?style=for-the-badge" />
+  </p>
 
-```
+  <em>All your data stays on YOUR computer. Nothing is sent anywhere. Complete privacy. 🔒</em>
+
+</div>
