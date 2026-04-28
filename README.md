@@ -2,7 +2,7 @@
   <img src="assets/banner.png" alt="AI Code Editor Banner" width="800"/>
 
   <h1>🤖 AI Code Editor v2.0</h1>
-  <p><strong>Offline AI-Powered Code Editor — No Internet. No API Keys. Just Code!</strong></p>
+  <p><strong>Offline AI-Powered Code Editor No Internet. No API Keys. Just Code!</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
@@ -23,19 +23,19 @@
 
 <div align="center">
   <img src="assets/screenshot-editor.png" alt="Editor Screenshot" width="85%" />
-  <p><em>🖥️ Dark theme editor with syntax highlighting</em></p>
+  <p><em>Dark theme editor with syntax highlighting</em></p>
 </div>
 
 <br/>
 
 <div align="center">
   <img src="assets/screenshot-ai-chat.png" alt="AI Chat Screenshot" width="85%" />
-  <p><em>🤖 AI Assistant helping with code — 100% offline</em></p>
+  <p><em> AI Assistant helping with code 100% offline</em></p>
 </div>
 
 ---
 
-## ✨ Features
+##  Features
 
 <table>
 <tr>
@@ -55,7 +55,7 @@
 ### 📝 Smart Code Editor
 - Syntax highlighting for 8+ languages
 - Line numbers & auto-indentation
-- Dark theme — easy on eyes
+- Dark theme easy on eyes
 - Large readable fonts
 - Context menu (right-click Cut/Copy/Paste)
 
@@ -185,7 +185,7 @@ pyinstaller --onefile AI_Code_Editor_Offline.py
 
 Find your EXE at: **dist/AICodeEditor.exe**
 
-> 💡 Share it with friends — no Python needed to run it!
+> 💡 Share it with friends no Python needed to run it!
 
 ---
 
@@ -322,7 +322,7 @@ You need a C/C++ compiler installed:
 
 The editor looks for clang++ by default. Either:
 - Install clang, OR
-- Install g++ (MinGW) — the editor will auto-detect it
+- Install g++ (MinGW) the editor will auto-detect it
 
 </details>
 
