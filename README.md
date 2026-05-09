@@ -11,7 +11,7 @@
   </p>
 
   <p>
-    A lightweight, fully offline code editor with a built-in AI assistant.<br/>
+    A lightweight, fully offline code editor with a built-in AI assistant<br/>
     No internet required. No API keys. No subscriptions. Just install and code!
   </p>
 </div>
